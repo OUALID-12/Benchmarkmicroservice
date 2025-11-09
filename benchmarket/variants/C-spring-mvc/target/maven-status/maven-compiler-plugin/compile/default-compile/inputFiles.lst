@@ -1,0 +1,14 @@
+c:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\C-spring-mvc\src\main\java\com\benchmark\springmvc\Application.java
+c:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\C-spring-mvc\src\main\java\com\benchmark\springmvc\controller\CategoryController.java
+c:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\C-spring-mvc\src\main\java\com\benchmark\springmvc\controller\CategoryItemController.java
+c:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\C-spring-mvc\src\main\java\com\benchmark\springmvc\controller\ItemController.java
+c:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\C-spring-mvc\src\main\java\com\benchmark\springmvc\dto\CategoryDTO.java
+c:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\C-spring-mvc\src\main\java\com\benchmark\springmvc\dto\ItemDTO.java
+c:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\C-spring-mvc\src\main\java\com\benchmark\springmvc\entity\Category.java
+c:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\C-spring-mvc\src\main\java\com\benchmark\springmvc\entity\Item.java
+c:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\C-spring-mvc\src\main\java\com\benchmark\springmvc\repository\CategoryRepository.java
+c:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\C-spring-mvc\src\main\java\com\benchmark\springmvc\repository\ItemRepository.java
+c:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\C-spring-mvc\src\main\java\com\benchmark\springmvc\service\CategoryService.java
+c:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\C-spring-mvc\src\main\java\com\benchmark\springmvc\service\FetchMode.java
+c:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\C-spring-mvc\src\main\java\com\benchmark\springmvc\service\ItemService.java
+c:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\C-spring-mvc\src\main\java\com\benchmark\springmvc\web\NoCacheFilter.java

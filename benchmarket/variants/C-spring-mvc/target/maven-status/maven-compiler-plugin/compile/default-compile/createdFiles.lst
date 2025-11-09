@@ -1,0 +1,15 @@
+com\benchmark\springmvc\service\CategoryService.class
+com\benchmark\springmvc\service\FetchMode.class
+com\benchmark\springmvc\controller\ItemController.class
+com\benchmark\springmvc\entity\Item.class
+com\benchmark\springmvc\entity\Category.class
+com\benchmark\springmvc\web\NoCacheFilter.class
+com\benchmark\springmvc\service\ItemService.class
+com\benchmark\springmvc\repository\ItemRepository.class
+com\benchmark\springmvc\dto\ItemDTO.class
+com\benchmark\springmvc\Application.class
+com\benchmark\springmvc\dto\CategoryDTO.class
+com\benchmark\springmvc\dto\ItemDTO$CategoryRef.class
+com\benchmark\springmvc\repository\CategoryRepository.class
+com\benchmark\springmvc\controller\CategoryController.class
+com\benchmark\springmvc\controller\CategoryItemController.class

@@ -1,0 +1,34 @@
+{
+  "title": "JMeter KPIs (RPS / Latency / Errors)",
+  "timezone": "browser",
+  "panels": [
+    {
+      "type": "graph",
+      "title": "RPS",
+      "targets": [
+        {
+          "expr": "rate(jmeter_requests[1m])"
+        }
+      ]
+    },
+    {
+      "type": "graph",
+      "title": "p95 Latency (ms)",
+      "targets": [
+        {
+          "expr": "jmeter_latency_p95"
+        }
+      ]
+    },
+    {
+      "type": "graph",
+      "title": "Error %",
+      "targets": [
+        {
+          "expr": "jmeter_error_pct"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 37
+}

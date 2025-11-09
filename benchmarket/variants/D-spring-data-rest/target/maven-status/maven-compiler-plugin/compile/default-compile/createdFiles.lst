@@ -1,0 +1,8 @@
+com\benchmark\springdatarest\repository\ItemRepository.class
+com\benchmark\springdatarest\service\FetchMode.class
+com\benchmark\springdatarest\repository\CategoryRepository.class
+com\benchmark\springdatarest\entity\ItemProjection.class
+com\benchmark\springdatarest\Application.class
+com\benchmark\springdatarest\web\NoCacheFilter.class
+com\benchmark\springdatarest\entity\Category.class
+com\benchmark\springdatarest\entity\Item.class

@@ -1,0 +1,7 @@
+
+rules:
+  - pattern: 'java.lang<type=Memory><>(.*)'
+  - pattern: 'java.lang<type=GarbageCollector,name=(.*)><>CollectionTime'
+  - pattern: 'java.lang<type=GarbageCollector,name=(.*)><>CollectionCount'
+  - pattern: 'java.lang<type=Threading><>(.*)'
+  - pattern: 'HikariPool<name=(.*)><>(.*)'

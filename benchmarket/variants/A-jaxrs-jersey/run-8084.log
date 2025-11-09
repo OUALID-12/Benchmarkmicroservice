@@ -1,0 +1,18 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/C:/Users/oulid/Downloads/apache-maven-3.9.11-bin/apache-maven-3.9.11/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+20:54:22.044 [com.benchmark.jaxrs.Application.main()] INFO  com.benchmark.jaxrs.Application - Starting JAX-RS Jersey application...
+20:54:22.712 [com.benchmark.jaxrs.Application.main()] INFO  c.benchmark.jaxrs.config.JpaConfig - Configuring DataSource: url=jdbc:postgresql://127.0.0.1:5433/benchmark, username=benchmark, passLen=12
+nov. 06, 2025 8:54:26 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:8084]
+nov. 06, 2025 8:54:26 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+20:54:26.165 [com.benchmark.jaxrs.Application.main()] INFO  com.benchmark.jaxrs.Application - Application started at http://0.0.0.0:8084/api/
+20:54:26.165 [com.benchmark.jaxrs.Application.main()] INFO  com.benchmark.jaxrs.Application - Press Ctrl+C to stop...
+20:54:26.165 [com.benchmark.jaxrs.Application.main()] INFO  com.benchmark.jaxrs.Application - Try: http://localhost:8084/api/categories?page=0&size=5
+20:54:43.434 [grizzly-http-server-0] INFO  c.b.jaxrs.resource.CategoryResource - GET /categories?page=0&size=2
+20:57:12.829 [grizzly-http-server-2] INFO  c.b.jaxrs.resource.CategoryResource - GET /categories?page=0&size=5
+20:57:25.187 [grizzly-http-server-3] INFO  c.b.jaxrs.resource.ItemResource - GET /items?page=0&size=5&categoryId=null
+07:33:10.356 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h24m57s952ms561µs400ns).
+09:20:17.187 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m4s985ms128µs).

@@ -1,0 +1,9 @@
+{
+  "sku": "SKU${__Random(100000,999999)}",
+  "name": "Test Item ${__Random(1,10000)}",
+  "price": 99.99,
+  "stock": 100,
+  "category": {
+    "id": 1
+  }
+}

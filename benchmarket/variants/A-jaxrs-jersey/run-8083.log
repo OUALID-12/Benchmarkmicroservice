@@ -1,0 +1,18 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/C:/Users/oulid/Downloads/apache-maven-3.9.11-bin/apache-maven-3.9.11/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+20:52:56.585 [com.benchmark.jaxrs.Application.main()] INFO  com.benchmark.jaxrs.Application - Starting JAX-RS Jersey application...
+20:52:57.721 [com.benchmark.jaxrs.Application.main()] INFO  c.benchmark.jaxrs.config.JpaConfig - Configuring DataSource: url=jdbc:postgresql://127.0.0.1:5433/benchmark, username=benchmark, passLen=12
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:3.1.0:java (default-cli) on project jaxrs-jersey: An exception occurred while executing the Java class. Unresolved compilation problems: 
+[ERROR] 	org.glassfish.jersey.internal.inject.Factory cannot be resolved to a type
+[ERROR] 	org.glassfish.jersey.internal.inject.Factory cannot be resolved to a type
+[ERROR] 	org.glassfish.jersey.internal.inject.Factory cannot be resolved to a type
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

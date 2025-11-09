@@ -1,0 +1,52 @@
+{
+  "title": "JVM Bench Dashboard (CPU/Heap/GC/Threads/Hikari)",
+  "timezone": "browser",
+  "panels": [
+    {
+      "type": "graph",
+      "title": "Process CPU %",
+      "targets": [
+        {
+          "expr": "process_cpu_usage"
+        }
+      ]
+    },
+    {
+      "type": "graph",
+      "title": "Heap Used (bytes)",
+      "targets": [
+        {
+          "expr": "jvm_memory_used_bytes{area=\"heap\"}"
+        }
+      ]
+    },
+    {
+      "type": "graph",
+      "title": "GC Time (s)",
+      "targets": [
+        {
+          "expr": "rate(jvm_gc_pause_seconds_sum[1m])"
+        }
+      ]
+    },
+    {
+      "type": "graph",
+      "title": "Threads Live",
+      "targets": [
+        {
+          "expr": "jvm_threads_live_threads"
+        }
+      ]
+    },
+    {
+      "type": "graph",
+      "title": "Hikari Active",
+      "targets": [
+        {
+          "expr": "hikaricp_connections_active"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 37
+}

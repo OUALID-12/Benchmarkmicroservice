@@ -1,0 +1,41 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/C:/Users/oulid/Downloads/apache-maven-3.9.11-bin/apache-maven-3.9.11/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.0)
+
+2025-11-07T08:16:31.617Z  INFO 7064 --- [           main] c.benchmark.springdatarest.Application   : Starting Application using Java 25 with PID 7064 (C:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\D-spring-data-rest\target\classes started by oulid in C:\Users\oulid\Downloads\benchmarket_final_with_bench_assets\benchmarket\variants\D-spring-data-rest)
+2025-11-07T08:16:31.623Z  INFO 7064 --- [           main] c.benchmark.springdatarest.Application   : No active profile set, falling back to 1 default profile: "default"
+2025-11-07T08:16:33.954Z  INFO 7064 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-07T08:16:34.130Z  INFO 7064 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151 ms. Found 2 JPA repository interfaces.
+2025-11-07T08:16:35.330Z  INFO 7064 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-11-07T08:16:35.360Z  INFO 7064 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-07T08:16:35.361Z  INFO 7064 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-11-07T08:16:35.495Z  INFO 7064 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-07T08:16:35.496Z  INFO 7064 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3780 ms
+2025-11-07T08:16:36.299Z  INFO 7064 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-07T08:16:36.394Z  INFO 7064 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2025-11-07T08:16:36.864Z  INFO 7064 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-07T08:16:37.115Z  INFO 7064 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@31006a75
+2025-11-07T08:16:37.118Z  INFO 7064 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-07T08:16:37.163Z  INFO 7064 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-11-07T08:16:39.043Z  INFO 7064 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-07T08:16:39.069Z  INFO 7064 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-07T08:16:39.410Z  WARN 7064 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-07T08:16:40.846Z  INFO 7064 --- [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-07T08:16:43.184Z  INFO 7064 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2025-11-07T08:16:43.441Z  INFO 7064 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-11-07T08:16:43.471Z  INFO 7064 --- [           main] c.benchmark.springdatarest.Application   : Started Application in 13.003 seconds (process running for 14.002)
+2025-11-07T08:16:46.938Z  INFO 7064 --- [nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-07T08:16:46.939Z  INFO 7064 --- [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-07T08:16:46.943Z  INFO 7064 --- [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-11-07T09:20:12.909Z  WARN 7064 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m4s978ms770µs100ns).
+^C

@@ -1,0 +1,63 @@
+---
+lowercaseOutputName: true
+lowercaseOutputLabelNames: true
+rules:
+  - pattern: ".*"
+---
+startDelaySeconds: 0
+ssl: false
+lowercaseOutputName: true
+lowercaseOutputLabelNames: true
+whitelistObjectNames:
+  - "java.lang:*"
+  - "java.nio:*"
+  - "java.util.logging:*"
+  - "jdk.management.jfr:*"
+  - "com.sun.management:*"
+  - "javax.management:*"
+blacklistObjectNames: []
+rules:
+  - pattern: "java.lang<type=Memory><attribute=HeapMemoryUsage><key=used>"
+    name: jvm_memory_bytes_used
+    type: GAUGE
+    attrNameSnakeCase: true
+  - pattern: "java.lang<type=Memory><attribute=HeapMemoryUsage><key=committed>"
+    name: jvm_memory_bytes_committed
+    type: GAUGE
+    attrNameSnakeCase: true
+  - pattern: "java.lang<type=Memory><attribute=HeapMemoryUsage><key=max>"
+    name: jvm_memory_bytes_max
+    type: GAUGE
+    attrNameSnakeCase: true
+  - pattern: "java.lang<type=GarbageCollector, name=*, index=*><attribute=CollectionCount>"
+    name: jvm_gc_collection_count
+    type: COUNTER
+    attrNameSnakeCase: true
+  - pattern: "java.lang<type=GarbageCollector, name=*, index=*><attribute=CollectionTime>"
+    name: jvm_gc_collection_time_ms
+    type: COUNTER
+    attrNameSnakeCase: true
+  - pattern: "java.lang<type=Threading><attribute=ThreadCount>"
+    name: jvm_threads_current
+    type: GAUGE
+    attrNameSnakeCase: true
+  - pattern: "java.lang<type=Threading><attribute=PeakThreadCount>"
+    name: jvm_threads_peak
+    type: GAUGE
+    attrNameSnakeCase: true
+  - pattern: "java.lang<type=Threading><attribute=DaemonThreadCount>"
+    name: jvm_threads_daemon
+    type: GAUGE
+    attrNameSnakeCase: true
+  - pattern: "java.lang<type=OperatingSystem><attribute=SystemCpuLoad>"
+    name: jvm_os_cpu_load
+    type: GAUGE
+    attrNameSnakeCase: true
+  - pattern: "java.lang<type=OperatingSystem><attribute=ProcessCpuLoad>"
+    name: jvm_os_process_cpu_load
+    type: GAUGE
+    attrNameSnakeCase: true
+  - pattern: "java.lang<type=Runtime><attribute=Uptime>"
+    name: jvm_runtime_uptime_ms
+    type: GAUGE
+    attrNameSnakeCase: true
